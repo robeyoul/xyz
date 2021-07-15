@@ -56,7 +56,8 @@ ___
 
 
 ##  3. flex-direction:
-      আগেই বলেছি flex default ভাবে row বরাবর কাজ করে। কিন্তু সবসময় আমরা যে row বরাবর কাজ করি বা করব এমন নয়। তাই যখন আমরা direction পরিবর্তন করতে চাইব তখন এই প্রপার্টি ব্যাবহার করব। এর ভ্যালু 3 টি।
+      আগেই বলেছি flex default ভাবে row বরাবর কাজ করে। 
+      কিন্তু সবসময় আমরা যে row বরাবর কাজ করি বা করব এমন নয়। তাই যখন আমরা direction পরিবর্তন করতে চাইব তখন এই প্রপার্টি ব্যাবহার করব। এর ভ্যালু 3 টি।
 
 | value   |  description              |
 |---------|--------------------------|
@@ -71,12 +72,14 @@ ___
    flex-direction: row;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    flex-direction: column;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
@@ -87,12 +90,14 @@ ___
 # shortcut
 
 আমরা চাইলে flex-wrap ও flex-direction কে এক সাথে লিখতে পারি। যেমন:
+
 ```css
 .parent-div{
    display: flex;
    flex-flow: flex-wrap | flex-direction;
 }
 ```
+
 ## 4. justify-content:
       justify-content সাধারনত horizontally align করার জন্য ব্যাবহার করা হয়।
       #### এর ভ্যালু 7টি:
@@ -103,36 +108,42 @@ ___
    justify-content: flex-start;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    justify-content: flex-end;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    justify-content: center;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    justify-content: space-between;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    justify-content: space-around;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    justify-content: space-evenly;
 }
 ```
+
 
 | value        |       description          |
 |--------------|----------------------------|
@@ -156,36 +167,42 @@ align-items সাধারনত vertically  align করার জন্য �
    align-items: flex-start;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    align-items: flex-end;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    align-items: center;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    align-items: space-between;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    align-items: space-around;
 }
 ```
+
 ```css
 .parent-class{
    display: flex;
    align-items: space-evenly;
 }
 ```
+
 
 | value        |       description          |
 |--------------|----------------------------|
